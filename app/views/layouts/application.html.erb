@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hitech Solution</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/img/website.png">
+</head>
+<body>
+<header>
+		<div class="container">
+				<div class="mob-media list-block">
+				  	<div id="mySidenav" class="sidenav mob-color">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<li class="dropdown nav-list">
+						<a class="dropdown" data-toggle="dropdown">
+						SEO SERVICES <span class="caret"></span>
+						</a>
+						<ul class="mbshow list-block">
+							<li><a href="#" >SEO IN DELHI</a></li>
+							<li><a href="#">SEO IN NOIDA</a></li>
+							<li><a href="#">SEO IN GURGAON</a></li>
+							<li><a href="#">SEO IN FARIDABAD</a></li>
+						</ul>
+						</li>
+				        <li class="nav-list"><a href="smo-services">SMO SERVICES</a></li>
+				        <li class="nav-list"><a href="web-designing">WEBSITE DESIGN</a></li>
+						<li class= "nav-list"><a href="prices">PRICING</a></li>
+						<li class="nav-list"><a href="about">ABOUT US</a></li>
+				        <li class="nav-list"><a href="contacts">CONTACT US</a></li>
+					</div>
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+				</div>
+				<div class="row header-main hd">
+						<div class="row logo-blk">
+				          <a href="http://sunrisetech.herokuapp.com/" title="SUNRISETECH IN PALWAL" id="logo">Hitech Solution<!-- <img src="assets/img/log.png" alt="SUNRISETECH"/>  --></a>
+				      	</div>
+						    <div class=" row hdr">
+								<ul class="nav nav-tabs">
+								<li class=" nav-list" id="hpd"><a href="http://sunrisetech.herokuapp.com/" title="SUNRISETECH">HOME</a></li>
+								<li class="dropdown nav-list">
+								<a class="dropdown" data-toggle="dropdown">
+								PRODUCTS<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">DRESSES</a></li>
+									<li><a href="#">CAPS</a></li>
+									<li><a href="#">PANTS</a></li>
+									<li><a href="#">BELT</a></li>
+								</ul>
+								</li>
+						        <li class="nav-list"><a href="smo-services">ABOUT</a></li>
+						        <li class="nav-list"><a href="web-designing">CONTACT US</a></li>
+						    </div>
+						      
+				</div>
+		</div>
+	</header>
+
+<%= yield %>
+ <footer>
+							<div class="ftr1">
+								<div class="row">
+									<div class="col-sm-3 ">
+										<ul class="contact">
+											<h4>Services</h4>
+											<li><a href="#">SEVICES 1</a></li>
+											<li><a href="/smo-services">SERVICES 2</a></li>
+											<li><a href="/web-designing">SERVICES 3</a></li><li><a href="/web-designing">SERVICES 4</a></li>
+
+										</ul>
+									</div>
+									<div class="col-sm-3">
+										<ul class="contact">
+											<h4>Help</h4>
+												<li><a href="/products">PRODUCTS</a></li>
+												<li><a href="/about">ABOUT US</a></li>
+												<li><a href="/contacts">CONTACT US</a></li>
+											</ul>
+									</div>
+									<div class="col-sm-3">
+											<ul class="contact list-block">
+												<h4>Contact Us</h4>
+												<li class="cnt-txt"><strong>Address: </strong> Level One Building Block 7/8, Near Bus Stand, Palwal.</li>
+												<li class="cnt-txt"><strong>Phone: </strong>+91-7056568090</li>
+												<li class="cnt-txt"><strong>E-mail: </strong>ravi@sunrisetech.com</li>
+											</ul>
+									
+									</div>
+									<div class="col-sm-3">
+											<ul class="social-icons contact">
+												<h4>Follow Us</h4>
+												<li class="facebook"><a href="https://www.facebook.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Facebook">Facebook</a></li>
+												<li class="twitter"><a href="https://www.twitter.com/" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Twitter">Twitter</a></li>
+												<li class="googleplus"><a href="https://plus.google.com/117706847987097855722/posts" target="_blank" data-placement="bottom" data-toggle="tooltip" title="Google Plus">Google Plus</a></li>
+											</ul>
+
+										
+									</div>
+								</div>
+								<div class="row" id="footer-copyright">
+										<div class="span1">
+											<a href="/" class="logo">
+
+											</a>
+										</div>
+										<div class="cpy">
+											<p>&copy; Copyright 2017 by HITECH SOLUTION. All Rights Reserved.</p>
+										</div>
+								</div>
+							</div>
+</footer>
+
+</body>
+</html>
