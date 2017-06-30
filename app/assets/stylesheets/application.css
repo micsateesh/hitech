@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ 
 .container{
 	width: 100% !important;
 	padding-right: 0px !important;
