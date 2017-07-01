@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'products' => 'home#products'
   get 'about' => 'home#about'
   post 'contact' => 'home#contact' , as: :contact
-  get 'contacts' => 'home#contact'
+  get 'contact' => 'home#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
