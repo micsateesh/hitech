@@ -6,6 +6,7 @@ body{
 }
 footer{
     font-family: 'Open Sans', arial;
+    padding-top: 30px;
 }
 header {
     position: fixed;
@@ -34,4 +35,81 @@ header {
 }
 ol, ul {
     list-style: none;
+}
+.solutions .solution-wrapper:first-child {
+    padding-right: 35px;
+}
+.solutions-item {
+    padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 35px;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    color: #444444;
+}
+.solutions-item li {
+    background: url(img/right-tick.png) no-repeat left center;
+    padding: 10px 0px 10px 50px;
+    list-style: none;
+    margin: 0;
+    font: 14px / 23px ProximaNovaLight;
+}
+.solutions-item h3 {
+    margin: 25px 0;
+    font: 16px / 23px ProximaNovaBold;
+}
+.title {
+    padding: 50px 0 35px;
+    color: #444444;
+    font: 18px / 23px ProximaNovaBold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact {
+    padding-bottom: 60px;
+}
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+}
+div.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+.contact input {
+    height: 48px;
+    margin-bottom: 20px;
+}
+.contact input, .contact textarea {
+    padding-left: 20px;
+    width: 100%;
+    background-color: #f6f6f6;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    font: 14px / 21px ProximaNovaLight;
+}
+.contact textarea {
+    padding-top: 20px;
+    margin-bottom: 25px;
+    resize: none;
+}
+.contact textarea {
+    padding-left: 20px;
+    width: 100%;
+    background-color: #f6f6f6;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    font: 14px / 21px ProximaNovaLight;
+}
+textarea {
+    overflow: auto;
 }
