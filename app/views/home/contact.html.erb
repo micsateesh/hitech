@@ -7,7 +7,7 @@
       function initMap() {
         var uluru = {lat: 28.367594, lng: 77.317250};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 5,
+          zoom: 10,
           center: uluru
         });
         var marker = new google.maps.Marker({
@@ -28,36 +28,30 @@
                         <div class="row">
                             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
                                 <div role="form" class="wpcf7" id="wpcf7-f51-o1" lang="en-US" dir="ltr">
-<div class="screen-reader-response"></div>
-<form action="/?lang=en#wpcf7-f51-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="51">
-<input type="hidden" name="_wpcf7_version" value="4.4.2">
-<input type="hidden" name="_wpcf7_locale" value="en_US">
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f51-o1">
-<input type="hidden" name="_wpnonce" value="ff863d0b34">
-</div>
+<div id="contact-form-view">
+  <%= form_for '', url: contact_path do |f| %>
 <div class="row">
 <div class="col-md-6">
-<span class="wpcf7-form-control-wrap Name"><input type="text" name="Name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name"></span>
+<input type="text" name="Name" value="" size="40" class="form-control" required ="required" placeholder="Name"></span>
 </div>
 <div class="col-md-6">
-<span class="wpcf7-form-control-wrap E-mail"><input type="email" name="E-mail" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="E-mail"></span>
+<input type="email" name="E-mail" value="" size="40" required="required" class="form-control"  placeholder="E-mail">
 </div>
 </div>
 <div class="row">
 <div class="col-md-12">
-<span class="wpcf7-form-control-wrap Message"><textarea name="Message" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea></span>
+<textarea name="Message" cols="40" rows="5" class="form-control" placeholder="Message"></textarea>
 </div>
 </div>
 <div class ="row">
-	<div class="col-md-12">
+    <div class="col-md-12">
 <div class="button-wrapper">
-<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="https://exoaws.wpengine.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
+<input type="submit" value="Send" class="btn cnt-form-one-submit-bnt">
 </div>
 </div>
 </div>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>                            </div>
+<% end %></div>
+</div>                             </div>
                         </div>
                     </div>
                 </div>
