@@ -113,3 +113,8 @@ div.wpcf7 .screen-reader-response {
 textarea {
     overflow: auto;
 }
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
