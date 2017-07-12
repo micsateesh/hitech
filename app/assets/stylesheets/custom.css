@@ -8,6 +8,7 @@ footer{
     font-family: 'Open Sans', arial;
     padding-top: 30px;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -22,6 +23,7 @@ header {
     -moz-box-shadow: 0px 3px 7px 3px rgba(48, 48, 48, 0.35);
     box-shadow: 0px 3px 7px 3px rgba(48, 48, 48, 0.35);
 }
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -65,9 +67,9 @@ ol, ul {
     text-align: center;
     text-transform: uppercase;
 }
-.contact {
+/*.contact {
     padding-bottom: 60px;
-}
+}*/
 div.wpcf7 {
     margin: 0;
     padding: 0;
@@ -85,11 +87,11 @@ div.wpcf7 .screen-reader-response {
 .wpcf7-form-control-wrap {
     position: relative;
 }
-.contact input {
+.cnt input {
     height: 48px;
     margin-bottom: 20px;
 }
-.contact input, .contact textarea {
+.cnt input, .cnt textarea {
     padding-left: 20px;
     width: 100%;
     background-color: #f6f6f6;
@@ -97,12 +99,12 @@ div.wpcf7 .screen-reader-response {
     border-radius: 3px;
     font: 14px / 21px ProximaNovaLight;
 }
-.contact textarea {
+.cnt textarea {
     padding-top: 20px;
     margin-bottom: 25px;
     resize: none;
 }
-.contact textarea {
+.cnt textarea {
     padding-left: 20px;
     width: 100%;
     background-color: #f6f6f6;

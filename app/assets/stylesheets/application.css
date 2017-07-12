@@ -157,12 +157,12 @@ color: whitesmoke;
 .contact p{
   color: #808283;
 }
-.contact{
+/*.contact{
 	 margin-top: 35px;
 }
 .contact li{
 	padding-top: 5px;
-}
+}*/
 .sidenav {
     height: 100%;
     width: 0;
@@ -201,6 +201,11 @@ color: whitesmoke;
 		display: block;
     background-color: white;
 	}
+  .solutions-item{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+  }
   .carousel-inner img{
   height: 273px !important;
   }
@@ -220,7 +225,7 @@ color: whitesmoke;
     font-size: 20px;
     font-weight: lighter;
     text-transform: uppercase;
-    color: #d12527;
+    color: #303030;
     margin-top: 5%;
     line-height: 1;
     margin-left: 2%;
@@ -229,11 +234,13 @@ color: whitesmoke;
   margin-left: 15px;
   text-transform: uppercase;
   font-size: 12px;
-  color: #8E91A0;
   margin-top: 1%;
   margin-left: 2%;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
+  }
+  .title{
+    padding: 0px 0px 0px 0px;
   }
   .rt{
     display: none;
