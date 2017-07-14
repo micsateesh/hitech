@@ -14,32 +14,28 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-var sindex = 0;
-carousel();
+$(document).ready(function(){   
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+
+    var sindex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        sindex++;
     }
-    sindex++;
-    if (sindex > x.length) {sindex = 1}
-    x[sindex - 1].style.display = "block";
-    setTimeout(carousel, 1000); // Change image every 2 seconds
-}
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
 
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
-
-$(document).ready(function () {
-   
     $('#contact-submit').on('click', function() {
        // $('#contact-form').submit();
         alert("Thank you for registration. we will contact you soon.")

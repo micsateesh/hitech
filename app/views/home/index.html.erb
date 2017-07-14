@@ -7,22 +7,45 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						   <!--  <li data-target="#myCarousel" data-slide-to="3"></li> -->
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
 					    </ol>
 
 				  		<!-- Wrapper for slides -->
-					  	<div class="carousel-inner" role="listbox">
-						    <div class="item active">
-						      <img class="img-block"  src="assets/event/seo.jpg">
-						    </div>
+				  		<div id ="desktop-carousel">
+						  	<div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img class="img-block"  src="assets/event/1.jpg">
+							    </div>
 
-						    <div class="item">
-						      <img class="img-block" src="assets/event/Business.jpg">
-						    </div>
+							    <div class="item">
+							      <img class="img-block" src="assets/event/2.jpg">
+							    </div>
 
-						    <div class="item">
-						      <img class="img-block" src="assets/event/web-design.jpg">
-						    </div>
+							    <div class="item">
+							      <img class="img-block" src="assets/event/3.jpg">
+							    </div>
+							    <div class="item">
+							      <img class="img-block" src="assets/event/4.jpg">
+							    </div>
+						 	</div>
+						 </div>
+					 	<div id="mobile-carousel">
+						 	<div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img class="img-block"  src="assets/event/1-mob.jpg">
+							    </div>
+
+							    <div class="item">
+							      <img class="img-block" src="assets/event/2-mob.jpg">
+							    </div>
+
+							    <div class="item">
+							      <img class="img-block" src="assets/event/3-mob.jpg">
+							    </div>
+							     <div class="item">
+							      <img class="img-block" src="assets/event/4-mob.jpg">
+							    </div>
+						 	</div>
 					 	</div>
 					</div>
 				</div>
@@ -123,4 +146,13 @@
 		</div>
 	</section>				
 
- 
+<script type="text/javascript">
+$(document).ready(function(){   
+    var device_width = $( document ).width();
+    if(device_width < 400){
+       $('#desktop-carousel').remove();
+    }else{
+         $('#mobile-carousel').remove();
+    }
+});
+</script>
