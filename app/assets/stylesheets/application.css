@@ -272,6 +272,15 @@ color: whitesmoke;
   .fm{
     width: 100% !important;
   }
+
+  #product-r .col-md-3{
+   padding: 5px 5px 5px 5px;
+  
+  }
+  .serv-image img{
+      height: 220px;
+  }
+
 }
 /* desktop view */
 @media (min-width: 576px){
@@ -286,7 +295,7 @@ color: whitesmoke;
   }
   .carousel-inner img{
   height: 570px !important;
-}
+  }
  /* #container{
     background-color: transparent;
   }*/
@@ -326,6 +335,14 @@ color: whitesmoke;
   }
   .col-sm-1{
     padding-top: 20px;
+  }
+  #product-r{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+  }
+  .serv-image img{
+      height: 300px;
   }
 }
 @media screen and (max-height: 450px) {

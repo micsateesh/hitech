@@ -23,6 +23,9 @@ header {
     -moz-box-shadow: 0px 3px 7px 3px rgba(48, 48, 48, 0.35);
     box-shadow: 0px 3px 7px 3px rgba(48, 48, 48, 0.35);
 }
+section{
+    margin-top: 100px;
+}
 
 .wrapper {
     max-width: 1200px;
@@ -120,13 +123,4 @@ textarea {
         width: 100%;
        }
 
-#product-r1{
-        margin-top: 100px;
-}
 
-#product-r{
-    margin-top: 25px;
-}
-.serv-image img{
-    height: 300px;
-}
