@@ -36,3 +36,12 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+
+$(document).ready(function () {
+   
+    $('#contact-submit').on('click', function() {
+       // $('#contact-form').submit();
+        alert("Thank you for registration. we will contact you soon.")
+    });
+});

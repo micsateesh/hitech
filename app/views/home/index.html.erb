@@ -92,7 +92,7 @@
                  
                                
 <div id="contact-form-view">
-  <%= form_for '', url: contact_path do |f| %>
+  <%= form_for '', url: contact_path, id: 'contact-form' do |f| %>
 <div class="row">
 <div class="col-md-6">
 <input type="text" name="Name" value="" size="40" class="form-control" required ="required" placeholder="Name"></span>
@@ -109,7 +109,7 @@
 <div class ="row">
 	<div class="col-md-12">
 <div class="button-wrapper">
-<input type="submit" value="Send" class="btn cnt-form-one-submit-bnt">
+<input type="button" value="Send" class="btn cnt-form-one-submit-bnt" id="contact-submit">
 </div>
 </div>
 </div>
