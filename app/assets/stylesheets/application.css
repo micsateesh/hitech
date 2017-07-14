@@ -437,3 +437,6 @@ font-style: oblique;
 .cnt-txt{
   color: #808283 !important; 
 }
+.center{
+  text-align: center;
+}
