@@ -29,11 +29,7 @@ $(document).ready(function(){
         sindex++;
     }
   
-    $('#contact-submit').on('click', function() {
-       // $('#contact-form').submit();
-        alert("Thank you for registration. we will contact you soon.")
-    });
-
+   
     
 });
 $(document).ready(function(){   
