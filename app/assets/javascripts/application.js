@@ -28,14 +28,7 @@ $(document).ready(function(){
         }
         sindex++;
     }
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-
+  
     $('#contact-submit').on('click', function() {
        // $('#contact-form').submit();
         alert("Thank you for registration. we will contact you soon.")
@@ -51,3 +44,11 @@ $(document).ready(function(){
          $('#mobile-carousel').remove();
     }
 });
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

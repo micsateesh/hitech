@@ -115,7 +115,7 @@
                  
                                
 <div id="contact-form-view">
-  <%= form_for '', url: contact_path, id: 'contact-form' do |f| %>
+  <%= form_for '', url: contact_path,:html => { :id => "contact-form" } do |f| %>
 <div class="row">
 <div class="col-md-6">
 <input type="text" name="Name" value="" size="40" class="form-control" required ="required" placeholder="Name"></span>
