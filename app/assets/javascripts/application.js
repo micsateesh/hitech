@@ -32,14 +32,6 @@ $(document).ready(function(){
    
     
 });
-$(document).ready(function(){   
-    var device_width = $( document ).width();
-    if(device_width < 400){
-       $('#desktop-carousel').remove();
-    }else{
-         $('#mobile-carousel').remove();
-    }
-});
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";

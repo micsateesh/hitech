@@ -43,3 +43,18 @@
 		
 	</div>
 </section>
+<script type="text/javascript">
+$(document).ready(function(){   
+    var device_width = $( document ).width();
+    if(device_width < 400){
+       $('#desktop-carousel').addClass('hidden');
+       $('#desktop-carousel').remove();
+       $('#mobile-carousel').removeClass('hidden');
+    }else{
+        $('#mobile-carousel').addClass('hidden');
+        $('#mobile-carousel').remove();
+        $('#desktop-carousel').removeClass('hidden');
+    }
+});
+
+</script>
