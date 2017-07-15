@@ -40,4 +40,14 @@ $(document).ready(function(){
        // $('#contact-form').submit();
         alert("Thank you for registration. we will contact you soon.")
     });
+
+    
+});
+$(document).ready(function(){   
+    var device_width = $( document ).width();
+    if(device_width < 400){
+       $('#desktop-carousel').remove();
+    }else{
+         $('#mobile-carousel').remove();
+    }
 });
