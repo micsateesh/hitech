@@ -3,7 +3,8 @@ class HomeController < ApplicationController
   end
   def contact
   	if request.post?
-  	
-  end
+  		UserMailer.registration_confirmation(params).deliver
+  		redirect_to root_path
+  	end
   end
 end
